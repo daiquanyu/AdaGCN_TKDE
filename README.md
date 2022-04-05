@@ -29,10 +29,13 @@ python train_WD.py # set signal = [2], target_train_rate = [0.05], FLAGS.gnn=gcn
 ## Citation 
 If you would like to use our code, please cite:
 ```
-@article{dai_graph_2022,
-	title = {Graph transfer learning via adversarial domain adaptation with graph convolution},
-	author = {Dai, Quanyu and Wu, Xiao-Ming and Xiao, Jiaren and Shen, Xiao and Wang, Dan},
-	year = {2022},
-	pages = {1--1},
-}
+@ARTICLE{dai_graph_2022,
+  author={Dai, Quanyu and Wu, Xiao-Ming and Xiao, Jiaren and Shen, Xiao and Wang, Dan},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Graph Transfer Learning via Adversarial Domain Adaptation with Graph Convolution}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TKDE.2022.3144250}}
 ```
