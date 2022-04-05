@@ -122,7 +122,7 @@ flags.DEFINE_float('source_train_rate', 0.1, 'The ratio of labeled nodes in targ
 # IGCN
 flags.DEFINE_integer('num_gcn_layers', 1, 'The number of gcn layers in the IGCN model.')
 flags.DEFINE_integer('smoothing_steps', 10, 'The setting of k in A^k.')
-flags.DEFINE_string('gnn', 'gcn', 'Convolutional methods.') # 'gcn', 'igcn'
+flags.DEFINE_string('gnn', 'igcn', 'Convolutional methods.') # 'gcn', 'igcn'
 #-----------------
 
 ############################################################
